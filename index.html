@@ -26,7 +26,7 @@
             <span>Entradas</span>
             <img src="/assets/income.svg" alt="Entradas">          
           </h3>
-          <p>R$ 1.700,00</p>
+          <p id="incomeDisplay">R$ 0,00</p>
         </div>
 
         <div class="card">
@@ -34,7 +34,7 @@
             <span>Saidas</span>
             <img src="/assets/expense.svg" alt="Entradas">
           </h3>
-          <p>R$ 500,00</p>
+          <p id="expanseDisplay">R$ 0,00</p>
         </div>
 
         <div class="card total">
@@ -42,7 +42,7 @@
             <span>Total</span>
             <img src="/assets/total.svg" alt="Entradas">
           </h3>
-          <p>R$ 1.200,00</p>
+          <p id="totalDisplay">R$ 0,00</p>
         </div>  
       </section>
       
@@ -63,30 +63,7 @@
           </thead>
 
           <tbody>
-            <tr>
-              <td class="description">Luz</td>
-              <td class="expanse"> - R$ 500,00</td>
-              <td class="date">13/01/2021</td>
-              <td>
-                <img src="./assets/minus.svg" alt="Remover Transação">
-              </td>
-            </tr>
-            <tr>
-              <td class="description">Freela</td>
-              <td class="income"> R$ 5.230,00</td>
-              <td class="date">13/01/2021</td>
-              <td>
-                <img src="./assets/minus.svg" alt="Remover Transação">
-              </td>
-            </tr>
-            <tr>
-              <td class="description">Aluguel</td>
-              <td class="expanse">- R$ 1.100,00</td>
-              <td class="date">11/01/2021</td>
-              <td>
-                <img src="./assets/minus.svg" alt="Remover Transação">
-              </td>
-            </tr>  
+           
           </tbody>
 
         </table>
@@ -98,7 +75,7 @@
         <div id="form">
           <h2>Nova transação</h2>
 
-          <form action="">
+          <form action="" onsubmit="Form.submit(event)">
             <div class="input-group">
               <label class="sr-only" for="description">Descrição</label>
               <input 
@@ -141,6 +118,7 @@
     <footer>
       <p>2021 - Easy Finance$ |</p>
       <a href="http://github.com/matheus13f" target="_blank">Github</a>
+      <a href="https://www.linkedin.com/in/matheus13f/" target="_blank">Linkedin</a>
       <a href="https://www.instagram.com/oi_matthew/" target="_blank">Instagram</a>
     </footer>
 
