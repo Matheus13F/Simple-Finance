@@ -52,8 +52,16 @@ const Transaction = {
         return expanse
     },
     total() {
+        let total = Transaction.incomes() + Transaction.expanses();
 
-        return Transaction.incomes() + Transaction.expanses();
+        if(total >= 0) {
+            document.querySelector('.card-total').classList.add('total');
+        } else {
+            document.querySelector('.card-total').classList.remove('total');
+            document.querySelector('.card-total').classList.add('over');            
+        }
+
+        return total;
     }
 }
 
@@ -179,8 +187,6 @@ const Form = {
         }        
     }
 }
-
-
 
 const App = {
     init() {
