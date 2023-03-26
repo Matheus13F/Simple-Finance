@@ -1,139 +1,138 @@
 /* BALANCE ============================================================*/
 
 #balance {
-    margin-top: -5rem;
+  margin-top: -5rem;
 }
 
 #balance h2 {
-    color: #fff;
-    margin-top: 0;
+  color: #fff;
+  margin-top: 0;
 }
 
 /* CARD ============================================================*/
 
 .card {
-    background-color: #fff;
-    padding: 1.5rem 2rem;
-    border-radius: 0.25rem;
-    
-    margin-bottom: 2rem;
-    color: var(--dark-blue)
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 0.25rem;
+
+  margin-bottom: 2rem;
+  color: var(--dark-blue);
 }
 
 .card h3 {
-    font-weight: 500;
-    font-size: 1rem;
+  font-weight: 500;
+  font-size: 1rem;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .card p {
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 3rem;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
 
-    margin-top: 1rem;   
+  margin-top: 1rem;
 }
 
-
 .card-total.total {
-    background-color: var(--dark-green);
-    color: #fff;
-    transition: all 0.5s;
+  background-color: var(--dark-green);
+  color: #fff;
+  transition: all 0.5s;
 }
 
 .card-total.over {
-    background-color: var(--red);
-    color: #fff;
-    transition: all 0.5s;
+  background-color: var(--red);
+  color: #fff;
+  transition: all 0.5s;
 }
 
 .card-total {
-    background-color: #fff;
-    padding: 1.5rem 2rem;
-    border-radius: 0.25rem;
-    
-    margin-bottom: 2rem;
-    color: var(--dark-blue);    
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 0.25rem;
 
-    transition: all 0.5s;
+  margin-bottom: 2rem;
+  color: var(--dark-blue);
+
+  transition: all 0.5s;
 }
 
 .card-total h3 {
-    font-weight: 500;
-    font-size: 1rem;
+  font-weight: 500;
+  font-size: 1rem;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .card-total p {
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 3rem;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
 
-    margin-top: 1rem;   
+  margin-top: 1rem;
 }
 
 /* TRANSACTION =======================================================*/
 
 #transaction {
-    display: block;
-    overflow-x: auto;
+  display: block;
+  overflow-x: auto;
 }
 
 /* TABLE ============================================================*/
 
 #data-table {
-    width: 100%;
-    border-spacing: 0 0.5rem;
-    color: var(--dark-blue);
+  width: 100%;
+  border-spacing: 0 0.5rem;
+  color: var(--dark-blue);
 }
 
 table thead tr th:first-child,
 table tbody tr td:first-child {
-    border-radius: 0.6rem 0 0 0.6rem ;
+  border-radius: 0.6rem 0 0 0.6rem;
 }
 
 table thead tr th:last-child,
 table tbody tr td:last-child {
-    border-radius: 0 0.6rem 0.6rem 0 ;
+  border-radius: 0 0.6rem 0.6rem 0;
 }
 
 table thead th {
-    background-color: #fff;
-    font-weight: 400;
+  background-color: #fff;
+  font-weight: 400;
 
-    padding: 1rem 2rem;
-    text-align: left;
+  padding: 1rem 2rem;
+  text-align: left;
 }
 
 table tbody tr {
-    opacity: 0.7;
-    transition: all .2;
+  opacity: 0.7;
+  transition: all 0.2;
 }
 
 table tbody tr:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 table tbody td {
-    background-color: #fff;
-    padding: 1rem 2rem;
-    font-weight: 500;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  font-weight: 500;
 }
 
 td.description {
-    color: var(--dark-blue);
+  color: var(--dark-blue);
 }
 
 td.income {
-    color: var(--dark-green)
+  color: var(--dark-green);
 }
 
 td.expanse {
-    color: var(--red);
+  color: var(--red);
 }

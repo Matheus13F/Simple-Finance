@@ -1,17 +1,16 @@
 footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 4rem 0 2rem;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 4rem 0 2rem;
 }
 
 footer a {
-    text-decoration: none;
-    color: var(--dark-blue);
-    margin: 0 0.5rem;
+  text-decoration: none;
+  color: var(--dark-blue);
+  margin: 0 0.5rem;
 }
 
 footer a:hover {
-    color: #000;
+  color: #000;
 }

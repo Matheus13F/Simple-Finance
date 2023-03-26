@@ -1,46 +1,46 @@
-@import url('./assets.css');
-@import url('./header.css');
-@import url('./main.css');
-@import url('./modal.css');
-@import url('./footer.css');
-@import url('./responsive.css');
+@import url("./assets.css");
+@import url("./header.css");
+@import url("./main.css");
+@import url("./modal.css");
+@import url("./footer.css");
+@import url("./responsive.css");
 
 :root {
-    --dark-blue: #363f5f;
-    --dark-green: #49aa26;
-    --light-green: #3dd705;
-    --red: #e92929;
+  --dark-blue: #363f5f;
+  --dark-green: #49aa26;
+  --light-green: #3dd705;
+  --red: #e92929;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-    font-family: Poppins, sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 html {
-    font-size: 93.75%;
+  font-size: 93.75%;
 }
 
 body {
-    background-color: #f0f2f5;
+  background-color: #f0f2f5;
 }
 
 .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
 
 .container {
-    width: min(90vw, 800px);
-    margin: auto;
+  width: min(90vw, 800px);
+  margin: auto;
 }
